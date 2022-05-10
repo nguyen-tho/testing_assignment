@@ -1,4 +1,4 @@
-<base href="http://localhost/dienthoai/" />
+<base href="http://localhost/testing_assignment/" />
 <?php 
 session_start();
 include("include/connect.php");?>
@@ -10,7 +10,7 @@ include("include/connect.php");?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title> Bán Điện Thoại </title>
 <script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
-<link rel="stylesheet" style="style/sheet" href="css/index.css">
+<link rel="stylesheet" style="stylesheet" href="css/index.css">
 
 
 

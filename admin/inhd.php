@@ -123,7 +123,7 @@ $row1=mysqli_fetch_assoc($rows1);
    $stt=1;
 	$tong=0;
 	$sql="select * from chitiethoadon where mahd='$mahd'";
-	$rows=mysqli_query(4conn,$sql);
+	$rows=mysqli_query($conn,$sql);
 	while($row=mysqli_fetch_assoc($rows))
 	{
 		$thanhtien=$row['gia']*$row['soluong'];
